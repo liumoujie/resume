@@ -10,7 +10,7 @@
 全面负责信号服务器和web调度服务器。
 信号服务器负责App端的上线，下线，加入组，退出组，建立房间，离开房间，抢麦，释放麦，接收App上传的位置，同步人员状态给所有相关的人等功能。主要技术为node+webSocket。
 调度管理系统又分为管理和调度两大块，管理系统主要是完成组织的建立，权限的分配，人员的管理，相关日志等等。调度系统可以直接语音呼叫相关的人员，实时下达任务，踢人下线，查看实时位置，定位，限制人员活动范围和回放轨迹等等。
-使用技术包括Node+Express+BMapAPI+passport+mongoDB+multer+Html5+Jquery+bluebird+weBsocket Client+linux+docker
+使用技术包括Node+Express+BMapAPI+passport+mongoDB+multer+Html5+Jquery+bluebird+weBsocket Client+linux+nginx+docker
 使用git作为代码管理工具
 ### 所属公司
 成都兴锐达科技有限公司
